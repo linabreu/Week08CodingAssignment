@@ -1,0 +1,213 @@
+.pageBody{
+    background-color: beige;
+}
+nav {
+    width: 100%;
+}
+
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks{
+    display:flex;
+}
+
+ .navLinks :link {
+    text-decoration: none;
+    color:#000;
+}
+
+.navLinks a:visited {
+    text-decoration: none;
+    color:#000;
+}
+
+.navLinks a:hover {
+    text-decoration: none;
+    color:#000;
+}
+
+.navLinks a:active {
+    text-decoration: none;
+    color:#000;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1em;
+}
+
+.heroImage{
+    background-image: url(Images/az_background.jpg);
+    background-size:cover;
+    background-position: center;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroTitle, .heroSubtitle{
+    color:white;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+}
+
+.heroTitle{
+    font-family: 'Koulen', cursive;
+    font-size: 4vw;
+}
+
+.heroSubtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size:2vw;
+}
+
+.indexTitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size:2vw;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+}
+
+hr{
+    width:10%;
+    color:#048ABF;
+    border:3px solid #048ABF;
+}
+
+.regText, .mainContainer li, .mainContainer ul{
+    font-family: 'Open Sans', sans-serif;
+    font-size:1em;
+}
+
+.mainContainer
+{
+    width:80%;
+    margin:auto;
+}
+
+.centeredImg {
+    display:block;
+    margin:auto;
+}
+
+.cardsWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:80%;
+    margin:auto;
+ }
+
+ .cardsImg {
+    width:100%;
+    height:250px;
+    border-top-right-radius:0.5em;
+    border-top-left-radius: 0.5em;
+
+ }
+
+.centeredText{
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+ }
+ 
+ .card {
+    flex: 0 1 calc(32% - 1em);
+    background-color: white;
+    border-radius: 0.5em;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+}
+
+.card h3 {
+    color:black; 
+    font-size:1.25vw;
+}
+
+.card p{
+    color:black;
+    font-size:1vw;
+}
+
+.card h3, .card p {
+    font-family: 'Open Sans', sans-serif;
+
+    text-align:center;
+}
+
+.paragraphText{
+    font-family: 'Open Sans', sans-serif;
+    margin-left:20px;
+}
+
+.imgContainer {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:30px;
+}
+
+.imgContainer img {
+    height:150px;
+    margin-bottom:40px;
+}
+
+table {
+    border-collapse: collapse;
+    margin:auto;
+    
+}
+tr, table, th, td {
+    border: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+    padding:10px;
+    background-color:white;
+}
+
+form {
+    border: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
+    width:60%;
+    margin:auto;
+    border-radius:0.5rem;
+    background-color:white;
+    border-radius: 0.5em;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+}
+
+.formTitle{
+    text-align:center;
+}
+
+label {
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.selection{
+    padding-top: 10px 12px;
+    color:black;
+    background-color: white;
+    border:2px solid #048ABF;
+    border-radius: 0.5em;
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:1vw;
+}
+
+.secondLabel{
+    margin-left:20px;
+    margin-top:20px;
+}
